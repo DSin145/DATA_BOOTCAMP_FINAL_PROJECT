@@ -44,9 +44,9 @@ The dataset is downloaded automatically via the Kaggle API in the notebook. See 
 | KNN + PCA | Classical ML + dimensionality reduction | 17.67% |
 | Logistic Regression + PCA | Classical ML + dimensionality reduction | 33.43% |
 | SVC + PCA | Classical ML + dimensionality reduction | 39.88% |
-| ResNet18 (pretrained CNN) | Transfer learning | 35.30% |
+| ResNet18 (pretrained CNN) | Transfer learning | 36.36% |
 
-**Key finding:** SVC with an RBF kernel on PCA-compressed features outperformed the pretrained CNN (39.88% vs. 35.30%), explained by the small dataset size, domain mismatch between ImageNet photographs and Pokémon cartoon artwork, and limited CNN training time.
+**Key finding:** SVC with an RBF kernel on PCA-compressed features outperformed the pretrained CNN (39.88% vs. 36.36%), explained by the small dataset size, domain mismatch between ImageNet photographs and Pokémon cartoon artwork, and limited CNN training time.
 
 ---
 
@@ -109,7 +109,7 @@ All classical models operated on PCA-compressed pixel features, following a sugg
 | Model | Test Accuracy |
 |---|---|
 | SVC + PCA | 39.88% |
-| ResNet18 (CNN) | 35.30% |
+| ResNet18 (CNN) | 36.36% |
 | Logistic Regression + PCA | 33.43% |
 | KNN + PCA | 17.67% |
 | KNN (raw pixels) | 16.50% |
