@@ -1,0 +1,18 @@
+# Core
+numpy
+pandas
+Pillow
+tqdm
+
+# Visualization
+matplotlib
+
+# Machine Learning
+scikit-learn
+
+# Deep Learning
+torch
+torchvision
+
+# Kaggle API
+kaggle
